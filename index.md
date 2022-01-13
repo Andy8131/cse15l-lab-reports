@@ -5,3 +5,5 @@ just some text
 # title
 
 ## smaller title
+
+$2x + 5 = 8 $
