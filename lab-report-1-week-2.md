@@ -1,1 +1,1 @@
-![Image](lab-report-1-week-2.md)
+![Image](justascreenshot.PNG)
