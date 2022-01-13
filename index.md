@@ -6,4 +6,6 @@ just some text
 
 ## smaller title
 
-$2x + 5 = 8 $
+$$
+2x+5
+$$
