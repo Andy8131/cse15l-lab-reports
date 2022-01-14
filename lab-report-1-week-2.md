@@ -7,11 +7,11 @@ First off, I downloaded the IDE Visual Studio Code(abbreivated as vsc) from http
 
 To log into the remote ieng6 servers, you need to typed in the command 'ssh cs15lwi22aiv@ieng6.ucsd.edu'. Next, I entered my password, which is not visible for security reasons.
 
-![Image](img1/loginRemoteServer.PNG)
+![Image](img1/loginRemoteServer.png)
 
 This is what shows up once you are logged in.
 
-![Image](img1/loggedInImage.PNG)
+![Image](img1/loggedInImage.png)
 
 Here are some commands that I tried out on my computer. "cd" brings me to the home directory, while "ls" gives me a list of the visible files in that directory. "ls -a" and "ls -l" shows me all the hidden files and longer details about them.
 
