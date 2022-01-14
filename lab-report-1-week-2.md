@@ -23,8 +23,8 @@ I copied a local file from my computer to the ieng6 server using "scp Wk2ArrayLi
 
 On my local terminal, I used the command ssh-keygen to create an ssh key on my own computer. I had to go through extra steps in order to make the key active because I am on Windows. I then had used scp C:\Users\andyl/.ssh/id_rsa.pub cs15lwi22aiv@ieng6.ucsd.edu:~/.ssh/authorized_keys to copy the key over to my account on the server.
 
-![Image](img1/ssh1.PNG)
-![Image](img1/ssh2.PNG)
+![Image](img1/part6command.PNG)
+![Image](img1/part6commands.PNG)
 
 To optimize copying files to from my computer to the server, I can combine multiple commands into one line. Before, I had 3 different commands: one to log in, one javac command, and one java command. Now, I can do it all in one line while logging in by using ssh cs15lwi22aiv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ![Image](img1/part7commands.PNG)
