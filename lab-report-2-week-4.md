@@ -14,6 +14,7 @@ The condition was for index to be greater than length of markdown, so the entire
 ![Image](img2/change2.PNG)
 ![Image](img2/fail2.PNG)
 [test-file2](test-file2.md)
+
 When the input(link) had extra parentheses, the parentheses were returned too. This should not happen, since links cannot contain parentheses.
 
 ## Bug Fix 3
