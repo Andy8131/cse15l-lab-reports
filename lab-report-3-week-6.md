@@ -8,7 +8,14 @@ First, type in
 ```
  ~/.ssh/config
  ```
-  to open up the config file. If it does not exist, it can be created in vscode. 
+  to open up the config file. If it does not exist, it can be created in vscode.
+```
+  cd ~/.ssh 
+
+  code .
+  ```
+
+  The first line of code will enter you into the ssh directory. The second line of code will open the folder up in vscode. From there, you can just click new file.
 
 ![Image](img3/ssh-config-file.png)
   Inside the file add this: 
