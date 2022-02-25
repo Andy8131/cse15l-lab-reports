@@ -80,9 +80,20 @@ Calling MarkdownParse.getLinks(test-filer3) should return the string:
 ## Running the TestFiles:
 
 Using my repository this is the result:
-![testrepo2](testrepo2.PNG)
+![testrepo2](testfile2.PNG)
 
 
 
 Using the reviewed repository, this is the result:
-![testrepo](testrepo.PNG)
+![testrepo](testedfile.PNG)
+
+
+## Possible fixes?
+
+Yes, it is easy to create a fix for test-file1. I can just created an if-statement checking if there is backtick before the nextOpenBracket.
+
+It would require more code to fix test-file 2, since I would need to keep track of alot of different brackets. I would need to keep track of brackets and parentheses, which is alot of if-statements.
+
+It should be easy to fix. I need to check with an if-statement to see if both parts of the link()[] are on the same line, and trim off the excess spaces in the link.
+
+
