@@ -50,4 +50,4 @@ The issue with provided code is that it does not account for words that come in 
 
 ![Image](codeblock15l.PNG)
 
-A potential fix is to have a check, using substring, to see if the distance between openParen and nextCloseBracket is -1. This can be done after trimming the space between them, since just having spaces can still be a valid link.
+A potential fix is to have a check to see if the distance between openParen and nextCloseBracket is -1. This can be done after trimming the space between them, since just having spaces can still be a valid link. After trimming the spaces, the index of the close bracket can subtract the index of the open bracket, and see if it is only a distance of 1 apart.
