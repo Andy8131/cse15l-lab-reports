@@ -3,7 +3,7 @@ Andy Liu, A17112518
 
 ## How the different tests were found:
 
-![Image](diffCOmmand.PNG)
+![Image](diffCommand.PNG)
 
 I used the command:
 
@@ -23,13 +23,19 @@ My markdown parse implementation is right, while the provided implementation is 
 ![Image](commonmark14.PNG)
 
 
-The issue with the given implmentation is that it does not look for the cases where special characters can alter the meaning of a piece of code. For example "\" can exit a command. 
+The issue with the given implmentation is that it does not look for the cases where special characters can alter the meaning of a piece of code. For example,
+```
+\
+
+<!-- Note that I had to place the \ inside of a codeblock or it wouldnt show, because of its properties-->
+```
+ can exit a command. 
 
 ![Image](codeblock15l.PNG)
 
-In the code above, there is no check to see if a "\" comes before a an open bracket, but it does check for backticks.
+In the code above, there is no check to see if a backslash comes before a an open bracket, but it does check for backticks.
 
-A potential fix would be to check if there is a "\" coming right before an open bracket.
+A potential fix would be to check if there is a backslash coming right before an open bracket.
 
 
 ## Test Case 14:
@@ -40,7 +46,7 @@ My markdown parse implementation is correct, while the provided implementation i
 
 ![image](testcase22.PNG)
 
-The issue with Joe's code is that it does not account for words that come in between the nextCloseBracket and openParen.
+The issue with provided code is that it does not account for words that come in between the nextCloseBracket and openParen.
 
 ![Image](codeblock15l.PNG)
 
